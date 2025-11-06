@@ -5,9 +5,9 @@
 
 nilai = int(input("Masukan nilai :"))
 
-if (nilai >= 95):
+if (nilai >= 97):
     print(f"Anda mendapatkan nilai A")
-elif (nilai >=80 and nilai <90):
+elif (nilai >=80 and nilai <93):
        print(f"Anda mendapatkan nilai B")
 elif (nilai >=70 and nilai <85):
       print(f"Anda mendapatkan nilai C")
