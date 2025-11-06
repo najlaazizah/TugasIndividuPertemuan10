@@ -8,7 +8,7 @@ nilai_uts = int(input("Masukan Nilai UTS:"))
 nilai_uas = int(input("Masukan Nilai UAS:"))
 rata_rata = (nilai_tugas + nilai_uts + nilai_uas) / 3 
 
-if (rata_rata >= 80):
+if (rata_rata >= 90):
     if (nilai_tugas>=60 and nilai_uts>=60 and nilai_uas >=70):
         print(f"{nama} kamu LULUS tanpa remedial")
     else:
